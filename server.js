@@ -20,7 +20,7 @@ var router = express.Router(); //GET AN INSTANCE OF THE EXPRESS ROUTER
 
 //TEST ROUTE TO MAKE SURE EVERYTHING IS WORKING (ACCESSED AT GET HTTP://LOCALHOST:8080/API)
 router.get('/', function(req, res){
-    res.json({ message: 'hooray! welcome to our api!' });
+    res.json({ message: 'Hello! Welcome to our API!' });
 });
 
 //MORE ROUTES FOR OUR API WILL HAPPEN HERE
