@@ -20,3 +20,5 @@ var port = process.env.PORT || 8080; //SET OUR PORT
 router.get('/', function(req, res){
     res.json({ message: 'hooray! welcome to our api!' });
 });
+
+//MORE ROUTES FOR OUR API WILL HAPPEN HERE
