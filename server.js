@@ -22,3 +22,11 @@ router.get('/', function(req, res){
 });
 
 //MORE ROUTES FOR OUR API WILL HAPPEN HERE
+
+
+
+//REGISTER OUR ROUTES
+// ==============================================================================================================
+
+//ALL OF OUR ROUTES WILL BE PREFIXED WITH /API
+app.use('/api', router);
