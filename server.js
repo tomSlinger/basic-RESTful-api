@@ -10,3 +10,5 @@ var bodyParser = require('body-parser');
 //THIS WILL LET US GET THE DATA FROM A POST
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+var port = process.env.PORT || 8080; //SET OUR PORT
